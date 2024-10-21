@@ -14,7 +14,7 @@ variable "vinaypsubnet2_cidr" {
 }
 
 # Defining CIDR block for subnet 3
-variable "vinaysubnet3_cidr" {
+variable "vinaypsubnet3_cidr" {
   default     = "10.0.3.0/24"
 }
 
