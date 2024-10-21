@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo yum install git -y
 sudo git clone https://github.com/vinay18-2/wordpress-1.git
 sudo yum install docker -y
 sudo systemctl start docker
