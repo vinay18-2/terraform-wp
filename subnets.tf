@@ -23,7 +23,7 @@ resource "aws_subnet" "vinaypsubnet2" {
 }
 
 # Creating the first application subnet
-resource "aws_subnet" "vinpaysubnet3" {
+resource "aws_subnet" "vinaypsubnet3" {
   vpc_id                  = aws_vpc.vinayvpc.id
   cidr_block              = var.vinaypsubnet3_cidr
   map_public_ip_on_launch = true
