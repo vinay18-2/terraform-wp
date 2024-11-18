@@ -1,5 +1,5 @@
 resource "aws_instance" "vinay-1" {
-  ami           = "ami-0e54eba7c51c234f6" # Replace with your AMI ID          
+  ami           = "ami-0166fe664262f664c" # Replace with your AMI ID          
   instance_type = "t2.micro"
   key_name      = "3app"
   vpc_security_group_ids = [aws_security_group.vinaysg.id]
