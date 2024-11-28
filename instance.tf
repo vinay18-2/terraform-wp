@@ -8,6 +8,6 @@ resource "aws_instance" "ram-1" {
   user_data     = file("wp-data.sh")
 
   tags = {
-    Name = "tf vinay"
+    Name = "tf vinay-1"
   }
 }
